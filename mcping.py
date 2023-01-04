@@ -1,7 +1,7 @@
 from mcstatus import JavaServer
 
 
-server = JavaServer.lookup("example.org:33711")
+server = JavaServer.lookup("185.107.194.138:33711")
 
 
 status = server.status()
