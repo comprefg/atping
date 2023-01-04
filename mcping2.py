@@ -1,4 +1,4 @@
-server=185.107.194.138:33711
+server="185.107.194.138:33711"
 url = "https://api.mcsrvstat.us/2/"+server
 print(url)
 resp = requests.get(url)
